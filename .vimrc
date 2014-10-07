@@ -181,7 +181,7 @@ let g:tagbar_singleclick = 1
 
 call vam#ActivateAddons(['github:szw/vim-tags'])
 " Create an empty tags dir in project root"
-let g:vim_tags_project_tags_command = "ctags -R --sort=foldcase --c++-kinds=+p --fields=+iaS --extra=+q /home/dirvine/Devel/MaidSafe/src 2>/dev/null"
+let g:vim_tags_project_tags_command = "ctags -R --sort=foldcase --c++-kinds=+p --fields=+iaS --extra=+q ~/Devel/MaidSafe/src 2>/dev/null"
 let g:vim_tags_use_language_field = 1
 
 let g:vim_tags_auto_generate = 1
